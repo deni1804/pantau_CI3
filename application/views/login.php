@@ -35,8 +35,13 @@
 						<!-- Nested Row within Card Body -->
 						<div class="row">
 							<div class="col-lg">
+								<div class="text-center">
+									<i> <img src="<?= base_url('assets/img/logo_imani.png') ?>" class="img-fluid" alt="Responsive image"> </i>
+								</div>
 								<div class="p-5">
+
 									<div class="text-center">
+
 										<h1 class="h4 fw-bold text-black-900 mb-4">LOGIN</h1>
 									</div>
 									<?= form_open('login'); ?>
